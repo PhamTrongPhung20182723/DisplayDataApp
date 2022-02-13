@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727441567339",
+    "firebase_url": "https://tsdv-oop-default-rtdb.firebaseio.com",
+    "project_id": "tsdv-oop",
+    "storage_bucket": "tsdv-oop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727441567339:android:b2fc8dca30ef45f6d1cb2e",
+        "android_client_info": {
+          "package_name": "com.example.tsdv_oop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727441567339-idu9h0c9i7t1s1b77019tg0qo47ggjck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCs5XcYTzg3bWwS1Kkz-ZGXvVuFbOZxX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727441567339-idu9h0c9i7t1s1b77019tg0qo47ggjck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

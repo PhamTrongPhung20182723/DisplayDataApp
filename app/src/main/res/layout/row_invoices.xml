@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:contentPadding="3dp"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/messageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/txtCusName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:text="Phạm Trọng Phụng-"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtCusAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/txtCusName"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="20182723-"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtCusClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCusName"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="6dp"
+                android:text="ET1-01-"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtCusEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/txtCusAge"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="phamphung@gmail.com"
+                android:textSize="15sp"  />
+            <TextView
+                android:id="@+id/txtCusTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/txtCusEmail"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:text="0964393554-"
+                android:textSize="15sp"  />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

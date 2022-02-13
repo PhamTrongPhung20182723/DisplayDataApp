@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:contentPadding="3dp"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/messageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/font"
+            android:gravity="center"
+            android:text="SmartPay System of HUST"
+            android:textSize="20sp"
+            android:textColor="#Ff0"
+            android:textStyle="bold"
+            />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNameCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Student Name"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <EditText
+                android:id="@+id/edtAgeCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Student ID"
+                android:layout_marginStart="16dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtNameCus"
+                />
+            <EditText
+            android:id="@+id/edtTelCus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Telephone"
+            android:layout_marginStart="16dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/edtAgeCus"
+            />
+            <EditText
+                android:id="@+id/edtEmailCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Student Email"
+                android:layout_marginStart="16dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtTelCus"
+                />
+            <EditText
+                android:id="@+id/edtClassCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Class"
+                android:layout_marginStart="16dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtEmailCus"
+                />
+            <EditText
+                android:id="@+id/edtExpCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter ExpClass"
+                android:layout_marginStart="16dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtClassCus"
+                />
+            <EditText
+                android:id="@+id/edtSubCus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Subject Code"
+                android:layout_marginStart="16dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtExpCus"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtBuy"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0"
+            android:text="Save"
+            android:gravity="center"
+            android:background="@drawable/font"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
